@@ -1,4 +1,4 @@
-#!groovy​
+
 
 properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', numToKeepStr: '10']]])
 
